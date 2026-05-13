@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aman",
+      "email": "aman@gmail.com",
+      "mobile": "9876543210"
+    }
+  ],
+
+  "devices": [
+    {
+      "id": 1,
+      "userId": 1,
+      "deviceName": "Samsung A52",
+      "androidVersion": "Android 14",
+      "ram": "8GB",
+      "storage": "128GB",
+      "batteryHealth": "92%"
+    }
+  ],
+
+  "screenOptimization": [
+    {
+      "id": 1,
+      "deviceId": 1,
+      "brightness": 70,
+      "refreshRate": 120,
+      "darkMode": true,
+      "autoRotate": false,
+      "screenTimeout": 30,
+      "resolution": "1080x2400"
+    }
+  ],
+
+  "batteryOptimization": [
+    {
+      "id": 1,
+      "deviceId": 1,
+      "batterySaver": true,
+      "backgroundAppsRestricted": true,
+      "powerUsage": "Optimized"
+    }
+  ],
+
+  "performance": [
+    {
+      "id": 1,
+      "deviceId": 1,
+      "cpuUsage": "35%",
+      "ramUsage": "4GB",
+      "temperature": "38C",
+      "fps": 60
+    }
+  ],
+
+  "apps": [
+    {
+      "id": 1,
+      "deviceId": 1,
+      "appName": "Instagram",
+      "batteryUsage": "12%",
+      "screenTime": "2h 30m"
+    }
+  ]
+}
